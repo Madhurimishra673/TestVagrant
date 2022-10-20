@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite1]">
+  <test thread-count="5" name="EbaySearchFunctionalityTest(failed)">
+    <parameter name="propertyfile" value="Configuration"/>
+    <classes>
+      <class name="com.testCases.validateAccessingProductViaCategory">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateAccessProductAfterApplyingFilter"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.testCases.validateAccessingProductViaCategory -->
+    </classes>
+  </test> <!-- EbaySearchFunctionalityTest(failed) -->
+</suite> <!-- Failed suite [TestSuite1] -->

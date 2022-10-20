@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>TestNG:  EbaySearchFunctionalityTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>EbaySearchFunctionalityTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 18 15:48:01 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>57 seconds (57503 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testCases.validateAccessingProductViaCategory.validateAccessProductAfterApplyingFilter()'><b>validateAccessProductAfterApplyingFilter</b><br>Test class: com.testCases.validateAccessingProductViaCategory<br/>
+<a href="#Output-448954772" onClick='toggleBox("Output-448954772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-448954772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-448954772">
+2022-10-18 15:48:09.969 [INFO] : Navingating to Electronics-->Cell phones & accessories via shop byy category<br/>
+2022-10-18 15:48:10.246 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (2c546159b6195c53dc61a3d2dae5646a)] -> id: gh-shop-a] is successfull<br/>
+2022-10-18 15:48:21.262 [INFO] : Applying following Filters to<br/>
+2022-10-18 15:48:21.463 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (2c546159b6195c53dc61a3d2dae5646a)] -> xpath: //span[@class='clipped' and contains(text(),'Shop by Bran')]/preceding-sibling::span[text()='See All']/parent::button] is successfull<br/>
+2022-10-18 15:48:23.59 [INFO] : Item Location Options -:[US Only]<br/>
+2022-10-18 15:48:23.817 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (2c546159b6195c53dc61a3d2dae5646a)] -> xpath: //span[text()='Item Location']/parent::div] is successfull<br/>
+2022-10-18 15:48:26.813 [INFO] : Screen Size Options -:[5.5 - 5.9 in]<br/>
+2022-10-18 15:48:26.984 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (2c546159b6195c53dc61a3d2dae5646a)] -> xpath: //span[text()='Screen Size']/parent::div] is successfull<br/>
+2022-10-18 15:48:32.921 [INFO] : Price Options -:[700, 900]<br/>
+2022-10-18 15:48:33.081 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (2c546159b6195c53dc61a3d2dae5646a)] -> xpath: //span[text()='Price']/parent::div] is successfull<br/>
+2022-10-18 15:48:35.864 [INFO] : No. of Filters Applied:3<br/>
+2022-10-18 15:48:36.036 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (2c546159b6195c53dc61a3d2dae5646a)] -> xpath: //button[.='Apply']] is successfull<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>com.testCases.validateAccessingProductViaCategory@1361e880</td></tr>
+<tr>
+<td title='com.testCases.validateAccessingProductViaSearch.validateAccessingProductViaSearchBar()'><b>validateAccessingProductViaSearchBar</b><br>Test class: com.testCases.validateAccessingProductViaSearch<br>Parameters: Computers/Tablets & Networking, MacBook<br/>
+<a href="#Output-164420916" onClick='toggleBox("Output-164420916", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-164420916" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-164420916">
+2022-10-18 15:48:53.853 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (4d9edf92a19790fe22dd4c08dc8cfa2b)] -> xpath: //input[@type='submit' and @id='gh-btn']] is successfull<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.testCases.validateAccessingProductViaSearch@3506bc8b</td></tr>
+</table><p>
+</body>
+</html>

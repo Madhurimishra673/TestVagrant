@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite1">
+
+	
+		
+	
+	<test name="CricketTeamValidations">
+	<parameter name="propertyfile" value="Configuration" />	
+		   
+		<packages>
+            <package name="com.testCases"/>
+        </packages>
+	</test>
+	
+	
+
+</suite> <!-- Suite -->

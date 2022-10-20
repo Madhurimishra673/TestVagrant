@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1666088282887" stop="1666088340089" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>TestSuite1 : EbaySearchFunctionalityTest[propertyfile=Configuration]</name>
+    <title>TestSuite1 : EbaySearchFunctionalityTest[propertyfile=Configuration]</title>
+    <test-cases>
+        <test-case start="1666088289856" stop="1666088324864" status="passed">
+            <name>validateAccessProductAfterApplyingFilter</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestSuite1"/>
+                <label name="testGroup" value="EbaySearchFunctionalityTest"/>
+                <label name="testClass" value="com.testCases.validateAccessingProductViaCategory"/>
+                <label name="testMethod" value="validateAccessProductAfterApplyingFilter"/>
+                <label name="host" value="madhurim-w10lt"/>
+                <label name="thread" value="20748@madhurim-w10lt.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1666088329896" stop="1666088337984" status="passed">
+            <name>validateAccessingProductViaSearchBar[Computers/Tablets &amp; Networking,MacBook]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestSuite1"/>
+                <label name="testGroup" value="EbaySearchFunctionalityTest"/>
+                <label name="testClass" value="com.testCases.validateAccessingProductViaSearch"/>
+                <label name="testMethod" value="validateAccessingProductViaSearchBar"/>
+                <label name="host" value="madhurim-w10lt"/>
+                <label name="thread" value="20748@madhurim-w10lt.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

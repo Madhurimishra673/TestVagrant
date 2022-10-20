@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1666188897074" stop="1666188906351" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1666188903878" stop="1666188904070" status="passed">
+            <name>validateAccessingProductViaSearchBar[Computers/Tablets &amp; Networking,MacBook]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.testCases.validateAccessingProductViaSearch"/>
+                <label name="testMethod" value="validateAccessingProductViaSearchBar"/>
+                <label name="host" value="madhurim-w10lt"/>
+                <label name="thread" value="24284@madhurim-w10lt.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
